@@ -1,21 +1,22 @@
 body{
     margin: 0px;
     width: 1280px;
-    height: 1399px;
+    height: 1500px;
+    
     
 }
 .wrap{
     display: flex;
     position: absolute;
     width: 1200px;
-    height: 1319px;
+    height: 1430px;
     margin: 40px;
-    box-shadow: 6px 6px 20px
+    box-shadow: 6px 6px 20px;
 }
 /* Left sidebar */
 .left_side{
     width: 370px;
-    height: 1319px;
+    height: 1430px;
     background-color: rgba(30, 41, 57, 1);
     color: white;
 }
@@ -78,13 +79,19 @@ li span{
 /* Right sidebar */
 .right_side{
     width: 830px;
-    height: 1319px;
+    height: 1430px;
     background-color: rgba(255, 255, 255, 1);
 }
 .name{
     margin-top: 100px;
     margin-left: 90px;
-    margin-right: 340px;
+    margin-right: 260px;
+
+    
+}
+p{
+    text-indent: 10px;
+    text-align: justify;
 }
 #p1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -123,4 +130,28 @@ li span{
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
+}
+.img_sertificate{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.img_sertificate01, .img_sertificate02{
+    width: 380px;
+    height: 265px;
+    margin: 10px;
+    transition: transform 2s;
+    /* background-color/: silver; */
+}
+.img_sertificate01{
+    margin: 13px;
+    
+}
+.img_sertificate01:hover img, 
+.img_sertificate02:hover img {
+    right: 100px;    
+    bottom: 100px;
+    position: relative;
+    transform: scale(1.5);
+
 }
